@@ -60,6 +60,10 @@ public class cobaOperasiiString {
         System.out.println("pecah kata di variabel tolean : ");
         for(int i=0;i<arrT.length;i++)
             System.out.println(arrT[i]);
+        String[] arrTr = tolean.split("r");
+        System.out.println("pecah berdasarkan huruf 'r' di variabel tolean : ");
+        for(int i=0;i<arrTr.length;i++)
+            System.out.println(arrTr[i]);
         
 }
     

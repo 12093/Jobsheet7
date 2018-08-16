@@ -48,6 +48,18 @@ public class cobaOperasiiString {
         
         System.out.println("gabungkan isi variabel x dan r : "+ x.concat(r));
         
+        System.out.println("karakter mulai posisi 3 di variabel x : "+ x.substring(3));
+        
+        System.out.println("karakter dari posisi 3-5 di variabel x :"+ x.substring(3,6));
+        
+        String tolean = t.trim();
+        System.out.println("isi variabel tolean : "+ t.trim());
+        System.out.println("rubah 'i' jadi 'E' di variabel tolean :"+ tolean.replace("i","E"));
+        
+        String[] arrT = tolean.split(" ");
+        System.out.println("pecah kata di variabel tolean : ");
+        for(int i=0;i<arrT.length;i++)
+            System.out.println(arrT[i]);
         
 }
     

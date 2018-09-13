@@ -11,6 +11,11 @@ public class Tugas1 {
         int uang = sistem.nextInt();
         
         
-        
+        for (int i=0;i<5;i++){
+            int jumlah = uang/nominal[i];
+            uang = uang - (nominal[i]*jumlah);
+            
+            System.out.println("Lembar"+ nominal[i]+ "=" +jumlah);
+        }
     }
 }
